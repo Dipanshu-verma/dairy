@@ -19,11 +19,11 @@ import disc from '../images/disc.svg'
 
 import closedicon from '../images/closedicon.svg'
 import TOKEN_ABI from '../../Config/TOKEN_ABI.json'
-import {
-  useConnectModal,
-  useAccountModal,
-  useChainModal,
-} from '@rainbow-me/rainbowkit';
+// import {
+//   useConnectModal,
+//   useAccountModal,
+//   useChainModal,
+// } from '@rainbow-me/rainbowkit';
 import { useAccount } from 'wagmi';
 import { ConnectWalletBtn } from './ConnectWalletBtn';
 

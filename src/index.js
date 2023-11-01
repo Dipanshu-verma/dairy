@@ -15,8 +15,8 @@ import {
 // import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
-import { getDefaultWallets, RainbowKitProvider,darkTheme } from "@rainbow-me/rainbowkit";
-import {  Theme } from '@rainbow-me/rainbowkit'
+// import { getDefaultWallets, RainbowKitProvider,darkTheme } from "@rainbow-me/rainbowkit";
+// import {  Theme } from '@rainbow-me/rainbowkit'
 import moonlandSheild from '../src/components/images/moonlandSheild.svg'
 
  
