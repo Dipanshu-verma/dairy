@@ -1,29 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import Home from './components/pages/home/home.js';
-import New from './components/pages/new/New.js';
-import Slide1 from './components/pages/slide1/Slide1.js';
-import ChickenFarm from './components/pages/slide2/ChickenFarm.js';
-import NewChickenFarm from './components/pages/slide2/ChickenFarmData.js';
-import Slide3 from './components/pages/slide3/Slide3.js';
-import Fslide1 from './components/pages/farmslide/fslide1.js';
-import Fslide2 from './components/pages/farmslide/fslide2.js';
-import Fslide3 from './components/pages/farmslide/fslide3.js';
-import Choose from './components/pages/choose/choose.js';
-import Marketplace2 from './components/pages/marketplace/newmarketplace.js';
-import Step from './components/pages/formstep/step.js';
-import Elements from './components/pages/marketplace/elements';
-import Staking from './components/pages/slide3/Stake'
-import KingGame from './components/pages/KingGame/KingGame.js';
-import GameCenter from './components/pages/GameCenter/GameCenter.js';
-import PigFarm from './components/pages/slide2/PigFarm';
-import NewMarketplace from './components/pages/newmarketplace/Marketplace';
-import Product from './components/pages/product/Product';
-import Create from './components/pages/create/create';
-import Single from './components/pages/single/single'
-import Multiple from './components/pages/multiple/multiple'
-import Swap from './components/pages/swap/Swap';
-import Choosemarketplace from './components/pages/choosemarketplace/choosemarketplace';
 import Dairyhome from "./components/pages/dairyhome/Dairyhome";
 
 

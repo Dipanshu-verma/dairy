@@ -142,25 +142,25 @@ const { chains,provider,webSocketProvider } = configureChains([
     },
   }),
 ]);
-const { connectors } = getDefaultWallets({
-  appName: "My RainbowKit App",
-  chains,
-});
-const client = createClient({
-  autoConnect: true,
-  connectors,
-  provider,
-  webSocketProvider,
-});
+// const { connectors } = getDefaultWallets({
+//   appName: "My RainbowKit App",
+//   chains,
+// });
+// const client = createClient({
+//   autoConnect: true,
+//   connectors,
+//   provider,
+//   webSocketProvider,
+// });
 // polyfill Buffer for client
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <WagmiConfig client={client}>
-      <RainbowKitProvider avatar={CustomAvatar} theme={myCustomTheme}  chains={chains} modalSize="compact">
+    {/* <WagmiConfig client={client}> */}
+      {/* <RainbowKitProvider avatar={CustomAvatar} theme={myCustomTheme}  chains={chains} modalSize="compact"> */}
             <App />
-      </RainbowKitProvider>
-    </WagmiConfig>
+      {/* </RainbowKitProvider> */}
+    {/* </WagmiConfig> */}
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
